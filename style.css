@@ -42,7 +42,7 @@ nav {
 
 nav a {
     color: rgb(252, 252, 252); /* makes links black */
-    text-decoration: underline; /* makes links underlined */
+    text-decoration: none; /* makes links underlined */
     font-size: 40px; /* bigger nav text */
 }
 
