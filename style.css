@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box; /* keeps the box size from getting messed up by padding/borders */
 }
@@ -5,24 +6,27 @@
 body {
     margin: 0; /* gets rid of the empty space around the page */
     font-family: Arial, sans-serif; /* makes the text easier to read */
-    background-color: rgba(171, 172, 179, 0.918); /* light gray background */
+    background-color: rgba(0, 0, 0, 0.918); /* light gray background */
 }
 
 header {
+    color: white;
+    height:50px;
     display: flex; /* puts stuff in a row */
     align-items: center; /* keeps things lined up in the middle */
     gap: 12px; /* space between the title and nav */
     padding: 16px 24px; /* space inside the header */
     font-style: oblique; /* makes the text slanted */
     font-size: 40px; /* big title text */
-    background-color: rgb(163, 162, 162); /* gray header background */
+    background-color: rgb(0, 0, 0); /* gray header background */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header img {
-    width: 60px; /* logo size */
-    height: 60px; /* keeps it square */
-    border: 2px solid black; /* black outline */
-    border-radius: 50%; /* makes the logo round */
+    width: 90px; /* logo size */
+    height: 50px; /* keeps it square */
+    border: 2px solid rgb(0, 0, 0); /* black outline */
+    border-radius: 8%; /* makes the logo round */
     object-fit: cover; /* keeps the image from stretching */
 }
 
@@ -34,14 +38,14 @@ nav {
 }
 
 nav a {
-    color: black; /* makes links black */
+    color: rgb(252, 252, 252); /* makes links black */
     text-decoration: underline; /* makes links underlined */
     font-size: 40px; /* bigger nav text */
 }
 
 h1 {
     font-style: oblique; /* just a font look what it does */
-    color: rgb(36, 34, 34); /* dark gray text */
+    color: rgb(255, 255, 255); /* dark gray text */
 }
 
 main {
@@ -61,11 +65,14 @@ main h1 {
     text-align: left; /* keeps heading on the left */
     font-size: 40px; /* makes heading bigger */
     margin-top: 0; /* removes extra space on top */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main p {
     font-size: 30px; /* bigger text */
     line-height: 1.6; /* space between lines */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
 }
 
 main img {
