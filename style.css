@@ -90,4 +90,5 @@ footer {
     gap: 8px; /* space between name and year */
     padding: 16px 24px; /* space inside footer */
     font-weight: bold; /* makes it a little bolder */
+    color:white;
 }
